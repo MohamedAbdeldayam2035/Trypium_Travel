@@ -1,0 +1,356 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>Trypium Travel</title> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="background.Css"> 
+ <style type="text/css" id="dcoder_stylesheet">*
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Style the header */
+header {
+  color: gold;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  background-image : url('https://assets.dcoder.tech/63fb3e0aae1ce02334cf46df/6421b8f3ae1ce02334e955f7/Screenshot_20230323_150344_com.google.android.apps.docs_edit_61493098646866.jpg');
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  
+}
+
+
+
+  h1 {
+      margin-top: 0;
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #fff;
+      position: relative;
+     
+    }
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+ 
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f00;
+}
+
+/* Style the hero section */
+.hero {
+  background-image: url("https://assets.dcoder.tech/63fb3e0aae1ce02334cf46df/6421b8f3ae1ce02334e955f7/Screenshot_20230323_150344_com.google.android.apps.docs_edit_61493098646866.jpg ");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.bt {
+  
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #f00;
+  border: 2px solid #f00;
+}
+
+/* Style the About section */
+.about {
+  background-image: url('https://assets.dcoder.tech/63fb3e0aae1ce02334cf46df/6421b8f3ae1ce02334e955f7/e3de260dfb9fe0cdbea6e019564106d00979be2d.jpg') ;
+  padding: 50px 0;
+  background-size: cover ;
+  
+  text-align: cover;
+  
+}
+
+.about h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* Style the Tours section */
+.tours {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.tours h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 300px;
+  margin: 0 auto 30px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.card .btn {
+  display: block;
+  margin: 20px auto;
+}
+
+.ma {
+       background-color:#00BFFF;
+      padding: 3rem;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color:White;
+} 
+
+       h1 {
+         
+      color: White;
+      margin: 0;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+       } 
+          h1::before {
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 2px;
+      bottom: -8px;
+      left: 25%;
+      background-color: #FFA500;
+    }
+        ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+     
+    }
+        .mm{
+      flex-basis: calc(33.33% - 1rem);
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      transition: all 0.2s ease-in-out;
+      background-color:#B0E0E6;
+    }
+        .mh{
+      flex-basis: calc(33.33% - 1rem);
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      transition: all 0.2s ease-in-out;
+      background-color: 0;
+    }
+       
+     .star-rating {
+      font-size: 1.5em;
+      color: gold;
+      margin-bottom: 1rem;
+    }
+    li:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
+       
+       
+    .checked {
+      color: gold;
+    }
+    
+       footer {
+      background-color: #FF69B4;
+      padding: 1rem;
+      color: #fff;
+      text-align: center;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    }</style></head> 
+ <body> 
+  <header> 
+   <h2>Trypium Travel</h2> <label for="color-picker">اختر لونك المفضل:</label> 
+   <input type="color" id="color-picker"> 
+  </header> 
+  <nav> 
+   <ul> 
+    <li><a href="https://www.facebook.com/Trypium?mibextid=ZbWKwL">Home</a></li> 
+    <li><a href="#">About Us</a></li> 
+    <li><a href="#">Tours</a></li> 
+    <li><a href="content://com.paprbit.dcoder.fileprovider/files/temp.html">Contact Us</a></li> 
+   </ul> 
+  </nav> 
+  <main> 
+   <section class="hero"> 
+    <h2></h2> 
+    <p><b> </b></p> <a href="http://wa.me/201222202776" class="bt">Book a Tour</a> 
+   </section> 
+   <section class="about"> 
+    <h2>About Us</h2> 
+    <p>Trypium Travel is a leading tour operator that offers unique and unforgettable experiences around the world. With our expert guides and carefully curated itineraries, we promise to take you on an adventure of a lifetime.</p> <a href="http://wa.me/201222202776" class="btn">Learn More</a> 
+   </section> 
+   <section class="tours"> 
+    <h2>Our Tours</h2> 
+    <div class="card"> 
+     <img src="https://assets.dcoder.tech/63fb3e0aae1ce02334cf46df/64205e9841fbf339d2129d4b/326542749_715292636834528_6340619034863089227_n (1).jpg" alt="https://assets.dcoder.tech/63fb3e0aae1ce02334cf46df/64205e9841fbf339d2129d4b/326542749_715292636834528_6340619034863089227_n (1).jpg"> 
+     <h3>Tour Name</h3> 
+     <p>Hop on an unforgettable adventure of a lifetime with Trypium! St. Catherine is not just an area of stunning natural beauty, It brings together historic tourism, religious tourism, and adventure travel! No matter what your interests are, you’ll surely enjoy St. Catherine. Don’t miss our limited offers and CALL US NOW to know more about the packages and what activities we have prepared for you.</p> <a href="http://wa.me/201222202776" class="btn">Book Now</a> 
+    </div> 
+    <div class="card"> 
+     <img src="https://assets.dcoder.tech/63fb3e0aae1ce02334cf46df/64205e9841fbf339d2129d4b/326361040_686046169884417_6738471865706472814_n.jpg" alt="https://assets.dcoder.tech/63fb3e0aae1ce02334cf46df/64205e9841fbf339d2129d4b/326361040_686046169884417_6738471865706472814_n.jpg"> 
+     <h3>Tour Name</h3> 
+     <p>Get yourself ready to spend memorable moments at the charming Siwa salt lakes by day and enjoy the irresistible desert activities by night while the stars are blooming in the sky! *Includes* -Accomodation at Dagal Chali Siwa Camp. -TV, AC, and Mini bar. -Transfer from and to Cairo in luxurious vehicles. -Professional local tour guide. -Cozy, cultural experience. Don’t miss our limited offers and CALL US NOW to know more about the packages and what activities we have prepared for you.</p> <a href="http://wa.me/201222202776" class="btn">Book Now</a> 
+    </div> 
+    <div class="card"> 
+     <img src="https://assets.dcoder.tech/63fb3e0aae1ce02334cf46df/64205e9841fbf339d2129d4b/320070408_1529972090856245_8865199158411806603_n.jpg" alt="https://assets.dcoder.tech/63fb3e0aae1ce02334cf46df/64205e9841fbf339d2129d4b/320070408_1529972090856245_8865199158411806603_n.jpg"> 
+     <h3>Tour Name</h3> 
+     <p>Who believes that we will be at the start of 2023 in a matter of days? I don't think any of us understand what happened in 2020 yet, but we know how to deal with such a long year like this. We'll all travel to Dahab together! One of the most beautiful places in the world, not just in Egypt, and we deserve to start the new year with diving, snorkelling, a yacht trip, and a Bedouin dinner in the mountains, with a visit to natural wonders unparalleled in the world.</p> <a href="http://wa.me/201222202776" class="btn">Book Now</a> 
+    </div> 
+    <div class="card"> 
+     <img src="https://assets.dcoder.tech/63fb3e0aae1ce02334cf46df/64205e9841fbf339d2129d4b/307939639_456904806457989_5038334440488932631_n.jpg" alt="https://assets.dcoder.tech/63fb3e0aae1ce02334cf46df/64205e9841fbf339d2129d4b/307939639_456904806457989_5038334440488932631_n.jpg"> 
+     <h3>Tour Name</h3> 
+     <p>Are you struggling to shop in Egypt and find it hard to find your favorite brand? Then it’s your lucky day because we are offering you a one-week shopping trip in Istanbul where you’ll get to visit the best shopping malls 🇹🇷</p> <a href="http://wa.me/201222202776" class="btn">Book Now</a> 
+    </div> 
+   </section> 
+  </main> 
+  <section class="ma"> 
+   <h1>These Services include:</h1> 
+   <ul> 
+    <li class="mh">Lodging</li> 
+    <li class="mh">Package travel deals </li> 
+    <li class="mh">Hotels</li> 
+    <li class="mh">travel insurance</li> 
+    <li class="mh">All-inclusive resorts</li> 
+    <li class="mh">Honeymoon</li> 
+    <li class="mh">Customized packages</li> 
+    <li class="mh">Umrah &amp; Haj</li> 
+    <li class="mh">Themed trips</li> 
+    <li class="mh">Excursions</li> 
+    <li class="mh">Visas issuing</li> 
+    <li class="mh">Air transfer</li> 
+    <li class="mh">Travel consultants</li> 
+    <li class="mh">Transfer from</li> 
+    <li class="mh">airport to hotels</li> 
+    <li class="mh">Car and bus rentals</li> 
+    <li class="mh">Emergency phone</li> 
+    <li class="mh">number</li> 
+    <li class="mh">and exception- ustomers' vari- ot and outside.</li> 
+    <li class="mh">Emergency guy</li> 
+   </ul> 
+  </section> 
+  <section> 
+   <h2>Customer Reviews</h2> 
+   <ul> 
+    <li class="mm"> <h3>John Smith</h3> <p>Great service! I booked my trip with Trypium Travel and everything went smoothly.</p> 
+     <div class="star-rating"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> 
+     </div> </li> 
+    <li class="mm"> <h3>Jane Doe</h3> <p>Highly recommend Trypium Travel. The staff were friendly and helpful throughout my trip.</p> 
+     <div class="star-rating"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star"></span> 
+     </div> </li> 
+    <li class="mm"> <h3>Tom Wilson</h3> <p>Excellent travel agency. They helped me plan my dream vacation and it exceeded my expectations.</p> 
+     <div class="star-rating"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> 
+     </div> </li> 
+    <li class="mm"> <h3>Mohamed salah </h3> <p>Great service! I booked my trip with Trypium Travel and everything went smoothly.</p> 
+     <div class="star-rating"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> 
+     </div></li> 
+    <li class="mm"> <h3>amera </h3> <p>Great service! I booked my trip with Trypium Travel and everything went smoothly.</p> 
+     <div class="star-rating"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> 
+     </div></li> 
+    <li class="mm"> <h3>asma </h3> <p>Great service! I booked my trip with Trypium Travel and everything went smoothly.</p> 
+     <div class="star-rating"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> 
+     </div></li> 
+   </ul> 
+  </section> 
+  <footer> 
+   <h1>You GOT TRIPPED </h1> 
+   <p>© 2023 Trypium Travel. All rights reserved.</p> 
+   <p> Call us on: +2 01222202776, +2 33472840-41 Also, you can contact us at: hello@trypium.com </p> 
+   <p> 27 from 26 th Julystreet, Lebanon square, Mohandessen Giza, Egypt </p> 
+   <p></p> 
+  </footer> <!-- Font Awesome for star icons --> 
+ 
+<script type="text/javascript" id="dcoder_script">const colorPicker = document.getElementById("color-picker");
+      colorPicker.addEventListener("change", () => {
+        document.body.style.backgroundColor = colorPicker.value;
+      });</script></body></html>
